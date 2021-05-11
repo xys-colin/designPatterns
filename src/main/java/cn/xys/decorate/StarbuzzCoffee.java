@@ -1,5 +1,9 @@
 package cn.xys.decorate;
 
+import cn.xys.decorate.condiment.Mocha;
+import cn.xys.decorate.condiment.Soy;
+import cn.xys.decorate.condiment.Whip;
+
 /**
  * @description: 装饰者模式——动态地将责任附加到对象上。想要扩展功能，装饰者提供有别于继承的另一种选择
  * @author: muLin

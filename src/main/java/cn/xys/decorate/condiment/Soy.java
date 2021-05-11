@@ -1,4 +1,7 @@
-package cn.xys.decorate;
+package cn.xys.decorate.condiment;
+
+import cn.xys.decorate.Beverage;
+import cn.xys.decorate.CondimentDecorator;
 
 /**
  * @description:

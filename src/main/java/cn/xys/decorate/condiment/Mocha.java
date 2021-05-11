@@ -1,11 +1,14 @@
-package cn.xys.decorate;
+package cn.xys.decorate.condiment;
+
+import cn.xys.decorate.Beverage;
+import cn.xys.decorate.CondimentDecorator;
 
 /**
  * @description: 摩卡是一个装饰者，所以扩展自装饰者类
  * @author: muLin
  * @time: 2021/4/29 10:19
  */
-public class Mocha extends CondimentDecorator{
+public class Mocha extends CondimentDecorator {
     Beverage beverage;
     public Mocha(Beverage beverage){
         this.beverage=beverage;
