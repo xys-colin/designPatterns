@@ -8,20 +8,26 @@ package cn.xys.strategy;
 public abstract class Duck {
     protected FlyBehavior flyBehavior;
     protected QuackBehavior quackBehavior;
-    public void swim(){
+
+    public void swim() {
         System.out.println("鸭子游泳");
     }
+
     public abstract void display();
-    public void performQuack(){
+
+    public void performQuack() {
         quackBehavior.quack();
     }
-    public void performFly(){
+
+    public void performFly() {
         flyBehavior.fly();
     }
-    public void setFlyBehavior(FlyBehavior flyBehavior){
-        this.flyBehavior=flyBehavior;
+
+    public void setFlyBehavior(FlyBehavior flyBehavior) {
+        this.flyBehavior = flyBehavior;
     }
-    public void setQuackBehavior(QuackBehavior quackBehavior){
-        this.quackBehavior=quackBehavior;
+
+    public void setQuackBehavior(QuackBehavior quackBehavior) {
+        this.quackBehavior = quackBehavior;
     }
 }

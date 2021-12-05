@@ -19,7 +19,7 @@ class Singleton {
     }
 
     //synchronized解决线程不安全
-    public static synchronized Singleton getInstance() {
+    public static Singleton getInstance() {
         if (instance == null) {
             synchronized (Singleton.class) {
                 if (instance == null) instance = new Singleton();

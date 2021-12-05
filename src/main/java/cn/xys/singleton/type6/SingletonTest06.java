@@ -21,7 +21,7 @@ class Singleton{
     private static class SingletonInstance{
         private static final Singleton SINGLETON=new Singleton();
     }
-    public static synchronized Singleton getInstance(){
+    public static Singleton getInstance(){
         return SingletonInstance.SINGLETON;
     }
 }

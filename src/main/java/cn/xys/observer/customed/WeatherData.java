@@ -36,9 +36,8 @@ public class WeatherData implements Subject {
      * 将状态通知观察者
      */
     public void notifyObservers() {
-        for (int i = 0; i < observers.size(); i++) {
-            Observer observer=observers.get(i);
-            observer.update(temperature,humidity,pressure);
+        for (Observer observer : observers) {
+            observer.update(temperature, humidity, pressure);
         }
     }
 
