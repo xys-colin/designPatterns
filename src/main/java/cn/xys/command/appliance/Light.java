@@ -1,7 +1,7 @@
 package cn.xys.command.appliance;
 
 /**
- * @description:
+ * @description: 家电类为接收者
  * @author: muLin
  * @time: 2021/5/7 15:13
  */

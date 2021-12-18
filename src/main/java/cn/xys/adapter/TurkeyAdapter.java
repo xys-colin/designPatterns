@@ -1,7 +1,7 @@
 package cn.xys.adapter;
 
 /**
- * @description: 适配器
+ * @description: 适配器(这里是对象适配器), 首先需要实现想转换的类型接口,也就是客户所期望看到的接口
  * @author: muLin
  * @time: 2021/5/10 23:32
  */
