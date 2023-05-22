@@ -1,5 +1,7 @@
 package cn.xys.composite;
 
+import java.util.Iterator;
+
 /**
  * @description: 菜单项
  * @author: xys
@@ -45,5 +47,10 @@ public class MenuItem implements MenuComponent{
         }
         System.out.println(" "+getPrice());
         System.out.println("   --"+getDescription());
+    }
+
+    @Override
+    public Iterator<MenuComponent> createIterator() {
+        return new NullIterator();
     }
 }

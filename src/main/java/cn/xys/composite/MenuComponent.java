@@ -1,5 +1,7 @@
 package cn.xys.composite;
 
+import java.util.Iterator;
+
 /**
  * @description: 菜单组件
  * @author: xys
@@ -32,5 +34,8 @@ public interface MenuComponent {
 
     default void print() {
 
+    }
+    default Iterator<MenuComponent> createIterator(){
+        return null;
     }
 }
